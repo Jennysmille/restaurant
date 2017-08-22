@@ -1,0 +1,63 @@
+body{
+  background-image: url('../img/resto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  display: block;
+  height: 235px;
+  margin:0 auto;
+  width: 750px;
+}
+
+#cadre{
+  font-size: 150%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px
+}
+
+#cadre ul{
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+}
+
+li{
+  list-style: none;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+ul li a{
+  color: black;
+  Font-Weight: Bold;
+  text-decoration: none;
+  height: 30px;
+  display: block;
+  border: 1px solid transparent;
+}
+
+ul ul{
+  position: absolute;
+  top: 31px;
+  visibility: hidden;
+}
+
+ul li:hover ul{
+  visibility: visible;
+}
+
+ul li a:hover{
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  color: black;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  margin-top: 14%;
+}

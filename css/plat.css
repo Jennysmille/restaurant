@@ -1,0 +1,102 @@
+body{
+  background-image: url('../img/resto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  display: block;
+  height: 235px;
+  margin:0 auto;
+  width: 750px;
+}
+
+p{
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 0%;
+}
+
+input{
+  text-align: center;
+  color: black;
+}
+
+#cadre{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 120%;
+}
+
+#cadre ul{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+}
+
+li{
+  list-style: none;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-left: 20%;
+}
+
+ul li a{
+  display: flex;
+  color: black;
+  Font-Weight: Bold;
+  text-decoration: none;
+  height: 30px;
+  border: 1px solid transparent;
+}
+
+ul ul{
+  position: absolute;
+  top: 31px;
+  visibility: hidden;
+}
+
+ul li:hover ul{
+  visibility: visible;
+}
+
+ul li a:hover{
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+}
+
+#case{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#case img{
+  width: 200px;
+  height: 100px;
+}
+
+#case2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#case2 img{
+  width: 200px;
+  height: 100px;
+}
+
+#case3{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#case3 img{
+  width: 200px;
+  height: 100px;
+}
